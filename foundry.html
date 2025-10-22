@@ -1,222 +1,183 @@
-<!-- index.html -->
-<!doctype html>
-<html lang="fr">
+<!doctype html> <html lang="fr"> <head> <meta charset="utf-8" /> <meta name="viewport" content="width=device-width, initial-scale=1" /> <title>Foundry — Fansite étudiant</title> <meta name="description" content="Fansite non officiel de Foundry pour un projet scolaire." /> <link rel="preconnect" href="https://fonts.googleapis.com" /> <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet" /> <link rel="stylesheet" href="assets/css/factorioStyles.css" /> <link rel="icon" href="https://source.unsplash.com/64x64/?gear,factory" /> </head> <body> <header class="site-header"> <div class="wrap" style="display: flex; align-items: center; justify-content: space-between;"> <a class="logo" href="index.html" aria-label="Accueil Fansite Foundry" style="display: inline-flex; align-items: center; gap: 0.5em;"> <img src="assets/images/index/logo.png" alt="Logo" /> <span>FactoryGamez</span> </a>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>factorio — Fansite étudiant</title>
-  <meta name="description" content="Fansite non officiel de factorio pour un projet scolaire." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link
-    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Inter:wght@400;600&display=swap"
-    rel="stylesheet" />
-  <link rel="stylesheet" href="assets/css/factorioStyles.css" />
-  <link rel="icon" href="https://source.unsplash.com/64x64/?gear,factory" />
-</head>
+    
+      <!-- Menu burger sans JS -->
+      <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="Ouvrir le menu" style="display: none;" />
+      <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true" style="cursor: pointer; font-size: 1.5em; user-select: none;">☰</label>
+    
+      <nav class="main-nav" aria-label="Navigation principale" style="display: flex; gap: 1em;">
+        <a href="satisfactory.html" class="btn--primary">Satisfactory</a>
+        <a href="factorio.html" class="btn--primary">Factorio</a>
+        <a href="foundry.html" class="btn--primary" aria-current="page">Foundry</a>
+      </nav>
+    </div>
+    
+    </header> 
+    <main id="contenu">
+       <!-- HERO -->
+         <section class="hero" role="banner"> 
+          <picture> 
+             <img src="assets/images/foundry/foundryWallpaper.jpg" alt="Monde fantastique et mécaniques magiques" />
+             </picture> <div class="hero__content wrap"> 
+              <h1>FOUNDRY :<br>Plonge dans un univers magique et modulable</h1>
+               <p> Explore un monde fantastique où construction et mécanique se combinent pour donner vie à des inventions complexes et personnalisables. </p>
+                <div class="hero__ctas">
+                   <a class="btn btn--primary" href="#acheter">Acheter</a>
+                    <a class="btn btn--ghost" href="#trailer">Voir le trailer</a>
+                   </div> <ul class="storebadges" aria-label="Boutiques">
+                     <li><a href="#" aria-label="Steam">Steam</a></li>
+                      <li><a href="#" aria-label="Epic Games">Epic Games</a></li>
+                     </ul> </div> <div class="hero__fade">
 
-<body>
-    <header class="site-header">
-        <div class="wrap" style="display: flex; align-items: center; justify-content: space-between;">
-          <a class="logo" href="index.html" aria-label="Accueil Satisfactory Fansite" style="display: inline-flex; align-items: center; gap: 0.5em;">
-            <img src="assets/images/index/logo.png" alt="Logo" />
-            <span>FactoryGamez</span>
-          </a>
-      
-          <!-- Menu burger sans JS -->
-          <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="Ouvrir le menu" style="display: none;" />
-          <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true" style="cursor: pointer; font-size: 1.5em; user-select: none;">☰</label>
-      
-          <nav class="main-nav" aria-label="Navigation principale" style="display: flex; gap: 1em;">
-            <a href="satisfactory.html" class="btn--primary">Satisfactory</a>
-            <a href="factorio.html" class="btn--primary">Factorio</a>
-            <a href="foundry.html" class="btn--primary">Foundry</a>
-          </nav>
-        </div>
-      </header>
-      
-
-  <main id="contenu">
-    <!-- HERO -->
-    <section class="hero" role="banner">
-      <picture>
-        <source media="(min-width: 1024px)" srcset="https://source.unsplash.com/1600x900/?factory,industry" />
-        <img src="assets/images/factorio/FactorioMap.jpg" alt="Paysage industriel high-tech" />
-      </picture>
-      <div class="hero__content wrap">
-        <h1>Construis et automatise des usines complexes</h1>
-        <p>Planification, logistique et défense sur une planète extraterrestre. Solo ou multijoueur.</p>
-        <div class="hero__ctas">
-          <a class="btn btn--primary" href="#acheter">Acheter</a>
-          <a class="btn btn--ghost" href="#trailer">Voir le trailer</a>
-        </div>
-        <ul class="storebadges" aria-label="Boutiques">
-          <li><a href="#" aria-label="Steam">Steam</a></li>
-          <li><a href="#" aria-label="GOG">GOG</a></li>
-        </ul>
-      </div>
-      <div class="hero__fade"></div>
-    </section>
-
+                     </div> 
+                    </section>
+    
+    
     <!-- LE JEU -->
     <section id="jeu" class="section wrap grid-2">
       <div>
-        <h2>Un jeu d'ingénierie et stratégie</h2>
+        <h2>Un jeu d'exploration, de craft et de mécanique</h2>
         <p>
-          Explore une planète inconnue, extrais des ressources, et construis des usines automatisées pour produire des objets complexes.
+          Découvre des environnements mystérieux, collecte des ressources uniques, et construis des structures mécaniques pour
+          résoudre des énigmes inventives.
         </p>
         <ul class="bullets">
-          <li>Vue top-down immersive et carte étendue</li>
-          <li>Automatisation poussée avec convoyeurs et bras robotiques</li>
-          <li>Défends ta base contre les biters hostiles</li>
+          <li>Exploration de zones variées et remplies de secrets</li>
+          <li>Modulaire et hautement personnalisable</li>
+          <li>Mécaniques de craft profondes et innovantes</li>
         </ul>
       </div>
       <figure class="media-card">
-        <img src="assets/images/factorio/FactorioMap.jpg" alt="Usine avec convoyeurs automatisés" />
-        <figcaption>Construction modulaire et flux automatisés.</figcaption>
+        <img src="assets/images/foundry/mapFoundry.webp" alt="Carte du monde de Foundry" />
+        <figcaption>Un monde vaste à découvrir et exploiter.</figcaption>
       </figure>
     </section>
-
+    
     <!-- FEATURES -->
     <section id="features" class="section section--alt">
       <div class="wrap">
         <h2>Fonctionnalités clés</h2>
         <div class="features">
           <article class="feature">
-            <img src="assets/images/factorio/FactorioSystemeElectrique.jpg" alt="Production électrique" />
-            <h3>Gestion de l'énergie</h3>
-            <p>Approvisionne et équilibre ta production énergétique pour alimenter l'usine sans interruption.</p>
+            <img src="assets/images/foundry/MachineEtGadget.jpg" alt="Machines et gadgets" />
+            <h3>Machines personnalisables</h3>
+            <p>Construis des appareils complexes adaptés à ton style de jeu.</p>
           </article>
           <article class="feature">
-            <img src="assets/images/factorio/FactorioTrain.png" alt="Réseau ferroviaire" />
-            <h3>Transport ferroviaire</h3>
-            <p>Utilise un vaste réseau de trains avec signaux pour acheminer les ressources efficacement.</p>
+            <img src="assets/images/foundry/Quest.jpg" alt="Résolution d'énigmes" />
+            <h3>Énigmes mécaniques</h3>
+            <p>Teste ta créativité avec des puzzles basés sur des mécanismes originaux.</p>
           </article>
           <article class="feature">
-            <img src="assets/images/factorio/FactorioBrasRobotique.jpg" alt="Bras robotisés" />
-            <h3>Automatisation avancée</h3>
-            <p>Programme des bras robotiques et convoyeurs pour optimiser ta chaîne de production.</p>
-          </article>
-          <article class="feature">
-            <img src="assets/images/factorio/FactorioMultiPlayer.png" alt="Jeu coopératif" />
+            <img src="assets/images/foundry/multiPlayer.jpg" alt="Multijoueur coopératif" />
             <h3>Multijoueur coopératif</h3>
-            <p>Joue en équipe pour bâtir ensemble des mégabases industrielles et relever des défis.</p>
+            <p>Collabore avec d’autres pour construire et résoudre ensemble.</p>
+          </article>
+          <article class="feature">
+            <img src="assets/images/foundry/w0rld.jpg" alt="Exploration du monde" />
+            <h3>Exploration immersive</h3>
+            <p>Parcours un univers riche en histoires, paysages et challenges.</p>
           </article>
         </div>
       </div>
     </section>
-
+    
     <!-- TRAILER / MEDIA -->
     <section id="trailer" class="section wrap grid-2">
       <figure class="media-card">
-        <img src="assets/images/factorio/FactorioTrailer.jpg" alt="Terrain extraterrestre" />
-        <figcaption>Explore une planète hostile pleine de ressources.</figcaption>
+        <img src="assets/images/foundry/foundry-trailer.jpg" alt="Trailer Foundry" />
+        <figcaption>Découvre l’univers de Foundry en images et vidéos.</figcaption>
       </figure>
       <div>
         <h2>Regarde le trailer</h2>
-        <p>Découvre les mécanismes, la construction et les combats. Vidéo non officielle en placeholder ici.</p>
+        <p>Plonge dans l’ambiance magique et mécanique de Foundry. Vidéo non officielle en placeholder.</p>
         <a class="btn btn--primary" href="#">Lire la vidéo</a>
       </div>
     </section>
-
+    
     <!-- MEDIAS -->
     <section id="medias" class="section section--alt">
       <div class="wrap">
         <h2>Galerie</h2>
         <div class="gallery">
-          <img src="assets/images/factorio/FactorioGallery1.jpg" alt="Usine illuminée la nuit" />
-          <img src="assets/images/factorio/FactorioGallery2.jpg" alt="Biome forestier" />
-          <img src="assets/images/factorio/FactorioGallery3.jpg" alt="Raffinerie pétrolière" />
-          <img src="assets/images/factorio/FactorioGallery4.jpg" alt="Gare ferroviaire" />
-          <img src="assets/images/factorio/FactorioGallery5.jpg" alt="Bras robotisés d'assemblage" />
-          <img src="assets/images/factorio/FactorioGallery6.jpeg" alt="Flore extraterrestre" />
+          <img src="assets/images/foundry/foundry1.jpg" alt="Construction mécanique" />
+          <img src="assets/images/foundry/foundry2.jpg" alt="Exploration du monde" />
+          <img src="assets/images/foundry/foundry3.webp" alt="Puzzle mécanique" />
+          <img src="assets/images/foundry/foundry4.jpg" alt="Travail en équipe" />
+          <img src="assets/images/foundry/foundry5.jpg" alt="Décor fantastique" />
         </div>
       </div>
     </section>
-
+    
     <!-- ACTUS -->
     <section id="actu" class="section wrap">
       <h2>Actualités</h2>
       <div class="news">
         <article class="news-item">
-          <time datetime="2025-09-10">10 septembre 2025</time>
-          <h3>Mise à jour qualité de vie</h3>
-          <p>Ajout de nouvelles options de tri automatique et amélioration des interfaces.</p>
+          <time datetime="2025-10-01">1er octobre 2025</time>
+          <h3>Mise à jour magie et mécanique</h3>
+          <p>Introduction de nouveaux gadgets mécaniques et améliorations de la physique.</p>
         </article>
         <article class="news-item">
-          <time datetime="2025-07-02">2 juillet 2025</time>
-          <h3>Optimisation des performances</h3>
-          <p>Améliorations significatives pour soutenir les mégabases et le multijoueur.</p>
+          <time datetime="2025-08-15">15 août 2025</time>
+          <h3>Extension du mode coop</h3>
+          <p>Plus de possibilités de collaboration et de partage des ressources.</p>
         </article>
         <article class="news-item">
-          <time datetime="2025-04-21">21 avril 2025</time>
-          <h3>Extension du réseau ferroviaire</h3>
-          <p>Nouveaux modules pour trains et gestion des signaux plus précise.</p>
+          <time datetime="2025-06-20">20 juin 2025</time>
+          <h3>Optimisations graphiques</h3>
+          <p>Améliorations visuelles et optimisation des performances sur tous supports.</p>
         </article>
       </div>
     </section>
-
+    
     <!-- COMMUNAUTÉ / CTA -->
     <section id="communaute" class="section section--cta">
       <div class="wrap cta">
-        <h2>Rejoins la communauté</h2>
-        <p>Partage tes blueprints, astuces et participe aux discussions avec d'autres ingénieurs.</p>
+        <h2>Rejoins la communauté Foundry</h2>
+        <p>Partage tes créations, échange des astuces et participe aux événements dédiés.</p>
         <div class="cta__actions">
           <a class="btn btn--primary" href="#">Discord</a>
           <a class="btn btn--ghost" href="#">Wiki</a>
         </div>
       </div>
     </section>
-
+    
     <!-- FAQ -->
     <section id="faq" class="section wrap">
       <h2>FAQ</h2>
       <details>
         <summary>Le jeu est‑il multijoueur ?</summary>
-        <p>Oui, joue en solo ou en coopération jusqu'à plusieurs dizaines de joueurs.</p>
+        <p>Oui, Foundry supporte une coopération fluide pour plusieurs joueurs.</p>
       </details>
       <details>
-        <summary>Y a‑t‑il un système ferroviaire ?</summary>
-        <p>Oui, trains, signaux et gestion complète du transport ferroviaire sont disponibles.</p>
+        <summary>Peut‑on personnaliser les machines ?</summary>
+        <p>Oui, le système de craft modulaire permet une grande liberté créative.</p>
       </details>
       <details>
-        <summary>Peut‑on modder le jeu ?</summary>
-        <p>Absolument, la communauté propose de nombreux mods permettant d'étendre le gameplay.</p>
+        <summary>Quels types d’énigmes trouve-t-on ?</summary>
+        <p>Des puzzles mécaniques intégrés dans des environnements variés et immersifs.</p>
       </details>
     </section>
-  </main>
-
-  <!-- Footer -->
-  <footer class="site-footer">
-    <div class="footer-container">
-      <!-- Logo et description -->
-      <div class="footer-brand">
-        <a href="index.html" class="footer-logo" aria-label="Accueil Fansite">
-          <img src="https://source.unsplash.com/48x48/?gear,factory" alt="Logo" />
-          <span>Fansite</span>
-        </a>
-        <p>Fansite dédié à Satisfactory, Factorio et aux jeux d’automatisation.</p>
-      </div>
-  
-      <!-- Navigation -->
+    
+    </main> <!-- Footer --> <footer class="site-footer"> <div class="footer-container"> <div class="footer-brand"> <a href="index.html" class="footer-logo" aria-label="Accueil Fansite"> <img src="https://source.unsplash.com/48x48/?gear,factory" alt="Logo" /> <span>Fansite</span> </a> <p>Fansite dédié à Satisfactory, Factorio et Foundry, ainsi qu’aux jeux d’automatisation.</p> </div>
+    
+    
       <nav class="footer-nav" aria-label="Plan du site">
         <ul>
           <li><a href="index.html">Accueil</a></li>
           <li><a href="satisfactory.html">Satisfactory</a></li>
           <li><a href="factorio.html">Factorio</a></li>
-          <li><a href="guides.html">Guides</a></li>
+          <li><a href="foundry.html">Foundry</a></li>
+          
         </ul>
       </nav>
-  
-      <!-- Réseaux sociaux -->
+    
       <div class="footer-social">
         <a href="#" aria-label="Discord" class="social">Discord</a>
         <a href="#" aria-label="Forum" class="social">Forum</a>
       </div>
     </div>
     <p class="footer-copy">&copy; 2025 Fansite. Tous droits réservés.</p>
-  </footer>
-</body>
-
-</html>
+    
+    </footer> </body> </html>

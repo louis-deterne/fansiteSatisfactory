@@ -1,0 +1,226 @@
+<!doctype html> 
+<html lang="fr"> 
+  <head> 
+    <meta charset="utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+     <title>FactoryGamez — Fansite étudiant</title> 
+     <meta name="description" content="Fansite non officiel de Satisfactory pour un projet scolaire." /> 
+     <link rel="preconnect" href="https://fonts.googleapis.com"> 
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Inter:wght@400;600&display=swap" rel="stylesheet"> 
+      <link rel="stylesheet" href="assets/css/styles.css" /> 
+      <link rel="icon" href="assets/images/index/logo.png" /> 
+    </head> 
+    <body> 
+      <header class="site-header">
+        <div class="wrap" style="display: flex; align-items: center; justify-content: space-between;">
+          <a class="logo" href="index.html" aria-label="Accueil Satisfactory Fansite" style="display: inline-flex; align-items: center; gap: 0.5em;">
+            <img src="assets/images/index/logo.png" alt="Logo" />
+            <span>FactoryGamez</span>
+          </a>
+      
+          <!-- Menu burger sans JS -->
+          <input id="nav-toggle" type="checkbox" class="nav-toggle" aria-label="Ouvrir le menu" style="display: none;" />
+          <label for="nav-toggle" class="nav-toggle-label" aria-hidden="true" style="cursor: pointer; font-size: 1.5em; user-select: none;">☰</label>
+      
+          <nav class="main-nav" aria-label="Navigation principale" style="display: flex; gap: 1em;">
+            <a href="satisfactory.html" class="btn--primary">Satisfactory</a>
+            <a href="factorio.html" class="btn--primary">Factorio</a>
+            <a href="foundry.html" class="btn--primary">Foundry</a>
+          </nav>
+        </div>
+      </header>
+       <main id="contenu"> <!-- HERO --> <section class="hero" role="banner"> <picture> <img src="assets/images/index/Pixel-Sundays-Satisfactory-3.webp" alt="Paysage industriel science‑fiction" /> </picture> <div class="hero__content wrap"> <h1>Construis l'usine de tes rêves</h1> <p>Contruisez, Explorez, Automatisez. Un monde ouvert à parcourir en solo ou en coop.</p> <div class="hero__ctas"> <a class="btn btn--primary" href="#acheter">Acheter ↓</a> <a class="btn btn--ghost" href="#trailer">Voir le trailer</a> </div> <ul class="storebadges" aria-label="Boutiques"> <li><a href="https://store.epicgames.com/fr/p/satisfactory" aria-label="Epic Games">Epic</a></li> <li><a href="https://store.steampowered.com/app/526870/Satisfactory/" aria-label="Steam">Steam</a></li> </ul> </div> <div class="hero__fade"></div> </section>
+  
+  
+  <!-- LE JEU -->
+  <section id="jeu" class="section wrap grid-2">
+    <div>
+      <h2>Un sandbox d'ingénierie</h2>
+      <p>Récupère des ressources, recherche des technologies et déploie une logistique efficace. Conçois des lignes de
+        production modulaires grâce aux convoyeurs, trieurs et ascenseurs.</p>
+      <ul class="bullets">
+        <li>Carte immense avec biomes variés</li>
+        <li>Progression par paliers (tiers)</li>
+        <li>Puissance, sécurité et maintenance</li>
+      </ul>
+    </div>
+    <figure class="media-card">
+      <img src="assets/images/index/conveyor.png" alt="Convoyeurs et machines" />
+      <figcaption>Chaînes automatisées et flux optimisés.</figcaption>
+    </figure>
+  </section>
+  
+  
+  
+  <!-- FEATURES -->
+  <section id="features" class="section section--alt">
+    <div class="wrap">
+      <h2>Fonctionnalités clés</h2>
+      <div class="features">
+        <article class="feature">
+          <img src="assets/images/index/power tower.jpg" alt="Réseau électrique" />
+          <h3>Réseau électrique</h3>
+          <p>Gère la production et l'équilibrage des charges pour éviter les coupures.</p>
+        </article>
+        <article class="feature">
+          <img src="assets/images/index/trains.png" alt="Trains" />
+          <h3>Transport avancé</h3>
+          <p>Trains, camions et hypertubes pour relier tes sites miniers.</p>
+        </article>
+        <article class="feature">
+          <img src="assets/images/index/drone port.png" alt="Drones" />
+          <h3>Logistique par drones</h3>
+          <p>Automatise les livraisons longue distance avec des itinéraires aériens.</p>
+        </article>
+        <article class="feature">
+          <img src="assets/images/index/coop.webp" alt="Coop" />
+          <h3>Coop</h3>
+          <p>Joue en équipe, répartis les rôles, multiplie la production.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- TRAILER / MEDIA -->
+  <section id="trailer" class="section wrap grid-2">
+    <figure class="media-card">
+      <video width="506" height="380" controls>
+        <source src="assets/images/index/trailer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+      <figcaption>Explore un monde alien riche en ressources.</figcaption>
+    </figure>
+    <div>
+      <h2>Regarde le trailer</h2>
+      <p>Découvre l'ambiance, les machines et les défis d'optimisation. Vidéo non officielle en placeholder ici.</p>
+    </div>
+  </section>
+  
+  
+  
+  <!-- MEDIAS -->
+  <section id="medias" class="section section--alt">
+    <div class="wrap">
+      <h2>Galerie</h2>
+      <div class="gallery">
+        <img src="assets/images/index/night base.png" alt="Usine de nuit" />
+        <img src="assets/images/index/desert.avif" alt="Biome désert" />
+        <img src="assets/images/index/Rocky-Desert-Biome-1.jpg" alt="Cascade alien" />
+        <img src="assets/images/index/space elevator.webp" alt="Ascenseur spatial" />
+        <img src="assets/images/index/factory2.png" alt="Assemblage" />
+        <img src="assets/images/index/raffinerie.png" alt="Raffinerie" />
+        <img src="assets/images/index/nuclearg-cropped.avif" alt="Raffinerie" />
+        <img src="assets/images/index/power plant.jpg" alt="Raffinerie" />
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- ACTUS -->
+  <section id="actu" class="section wrap">
+    <h2>Actualités</h2>
+    <div class="news">
+      <article class="news-item">
+        <time datetime="2025-09-10">10 septembre 2025</time>
+        <h3>Mise à jour qualité de vie</h3>
+        <p>Nouveau tri automatique des items et amélioration des signalisations ferroviaires.</p>
+      </article>
+      <article class="news-item">
+        <time datetime="2025-07-02">2 juillet 2025</time>
+        <h3>Équilibrage production</h3>
+        <p>Ajustement des recettes avancées et consommation énergétique des raffineries.</p>
+      </article>
+      <article class="news-item">
+        <time datetime="2025-04-21">21 avril 2025</time>
+        <h3>Optimisation réseau</h3>
+        <p>Amélioration des performances pour les mégabases coop.</p>
+      </article>
+    </div>
+  </section>
+  
+  
+  
+  <!-- COMMUNAUTÉ / CTA -->
+  <section id="communaute" class="section section--cta">
+    <div class="wrap cta">
+      <h2>Rejoins la communauté</h2>
+      <p>Guides, blueprints et échanges entre ingénieurs.</p>
+      <div class="cta__actions">
+        <a class="btn btn--primary" href="https://discord.gg/satisfactory">Discord</a>
+        <a class="btn btn--ghost" href="https://satisfactory.wiki.gg">Wiki</a>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- FAQ -->
+  <section id="faq" class="section wrap">
+    <h2>FAQ</h2>
+    <details>
+      <summary>Le jeu est‑il multijoueur ?</summary>
+      <p>Oui. Coop jusqu'à plusieurs joueurs sur le même monde.</p>
+    </details>
+    <details>
+      <summary>Y a‑t‑il des trains ?</summary>
+      <p>Oui. Réseau ferroviaire complet avec signaux et gares.</p>
+    </details>
+    <details>
+      <summary>Peut‑on modder le jeu ?</summary>
+      <p>Oui. La communauté fournit de nombreux mods et outils.</p>
+    </details>
+  </section>
+  
+
+
+  <!-- Footer -->
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-top">
+      <!-- Logo + Description -->
+      <div class="footer-logo-desc">
+        <a href="index.html" aria-label="Accueil Fansite" class="footer-logo-link">
+          <img src="https://source.unsplash.com/64x64/?gear,factory" alt="[translate:Logo]" />
+          <span>Fansite</span>
+        </a>
+        <p class="footer-description">
+          [translate:Bienvenue sur ce fansite dédié aux jeux de construction d'usines comme Satisfactory et Factorio, ainsi qu'à d'autres univers d'automatisation. Explorez, construisez, et partagez votre passion !]
+        </p>
+      </div>
+
+      <!-- Plan du site -->
+      <nav class="footer-nav" aria-label="[translate:Plan du site]">
+        <h4>[translate:Plan du site]</h4>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="satisfactory.html">Satisfactory</a></li>
+          <li><a href="factorio.html">Factorio</a></li>
+          <li><a href="??????????.html">??????????</a></li>
+        </ul>
+      </nav>
+
+      <!-- Réseaux sociaux -->
+      <div class="footer-social">
+        <h4>[translate:Rejoignez-nous]</h4>
+        <a href="#" aria-label="Discord" class="social-icon">Discord</a>
+        <a href="#" aria-label="Forum" class="social-icon">Forum</a>
+      </div>
+    </div>
+
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <p class="footer-copy">
+        &copy; 2025 Fansite. [translate:Tous droits réservés.]
+      </p>
+    </div>
+  </div>
+</footer>
+
+
+
+
+  </body> </html>
